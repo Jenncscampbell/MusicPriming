@@ -172,16 +172,58 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
-                    "sources": "VIDEO1"
+                    "sources": "VIDEOC"
                 },
                 {
-                    "sources": "VIDEO2"
+                    "sources": "VIDEO_Prime"
                 },
                 {
-                    "sources": "VIDEO3"
+                    "sources": "VIDEO_Prepost"
                 },
                 {
-                    "sources": "VIDEO4"
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEO_Fam"
+                },
+                {
+                    "sources": "VIDEOT1"
+                },
+                {
+                    "sources": "VIDEOT2"
+                },
+                {
+                    "sources": "VIDEO_Prepost"
                 },
                 {
                     "sources": [],
@@ -192,22 +234,26 @@
             ],
             "parameterSets": [
                 {
-                    "VIDEO1": "AttentionGetter",
-                    "VIDEO2": "AttentionGetter",
-                    "VIDEO3": "AttentionGetter",
-                    "VIDEO4": "AttentionGetter"
+                    "VIDEOC": "CalibrationDuck",
+                    "VIDEO_Prime": "CantoneseSong",
+                    "VIDEO_Prepost": "GparticlesBell",
+                    "VIDEO_Fam": "Fa",
+                    "VIDEOT1": "Fa", 
+                    "VIDEOT2": "Va"
                 },
                 {
-                    "VIDEO1": "AttentionGetter",
-                    "VIDEO2": "AttentionGetter",
-                    "VIDEO3": "AttentionGetter",
-                    "VIDEO4": "AttentionGetter"
+                    "VIDEOC": "CalibrationDuck",
+                    "VIDEO_Prime": "CantoneseSong",
+                    "VIDEO_Prepost": "GparticlesBell",
+                    "VIDEO_Fam": "Fa",
+                    "VIDEOT1": "Va", 
+                    "VIDEOT2": "Fa"
                 }
             ],
             "commonFrameProperties": {
                 "kind": "exp-lookit-composite-video-trial",
                 "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/", 
-                "testCount": 4,
+                "testCount": 1,
                 "audioTypes": [
                     "ogg",
                     "mp3"
@@ -217,7 +263,7 @@
                     "webm",
                     "mp4"
                 ],
-                "attnSources": "attentiongrabber",
+                "attnSources": "AttentionGetter",
                 "introSources": [],
                 "musicSources": [],
                 "unpauseAudio": "return_after_pause_HO",
