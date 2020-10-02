@@ -172,8 +172,7 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
-                    "sources": "VIDEO1",
-                    "calibrationLength": 2000
+                    "sources": "VIDEO1"
                 },
                 {
                     "sources": "VIDEO2"
@@ -208,7 +207,7 @@
             "commonFrameProperties": {
                 "kind": "exp-lookit-composite-video-trial",
                 "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/", 
-                "testCount": 1,
+                "testCount": 4,
                 "audioTypes": [
                     "ogg",
                     "mp3"
@@ -234,37 +233,11 @@
                 "calibrationAudioSources": "chimes",
                 "calibrationVideoSources": "attentiongrabber"
             }
-        },
-        "fam": {   
-               "kind": "exp-lookit-images-audio",
-               "audio": "wheresremy",
-               "images": [
-                   {
-                       "id": "remy",
-                       "src": "wheres_remy.jpg",
-                       "position": "fill"
-                   }
-               ],
-               "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
-               "audioTypes": [
-                   "mp3",
-                   "ogg"
-               ],
-               "autoProceed": true,
-               "doRecording": false,
-               "durationSeconds": 4,
-               "parentTextBlock": {
-                   "text": "Some explanatory text for parents",
-                   "title": "For parents"
-               },
-               "showProgressBar": true
-           
         }
     },
     "sequence": [
         "final-instructions",
         "tests",
-        "fam",
         "exit-survey",
         "study-intro",
         "video-preview",
