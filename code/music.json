@@ -229,6 +229,7 @@
                     "sources": [],
                     "altSources": [],
                     "doRecording": false,
+                    "audioSources": "all_done",
                     "calibrationLength": 0
                 }
             ],
@@ -253,6 +254,7 @@
             "commonFrameProperties": {
                 "kind": "exp-lookit-composite-video-trial",
                 "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/", 
+                "position": "fill",
                 "testCount": 1,
                 "audioTypes": [
                     "ogg",
@@ -263,15 +265,13 @@
                     "webm",
                     "mp4"
                 ],
-                "attnSources": "AttentionGetter",
+                "attnSources": "attentiongrabber",
                 "introSources": [],
                 "musicSources": [],
                 "unpauseAudio": "return_after_pause_HO",
                 "announceLength": 3,
                 "calibrationLength": 0,
                 "calibrationPositions": [
-                    "left",
-                    "right",
                     "left",
                     "right",
                     "center"
