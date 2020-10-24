@@ -167,7 +167,217 @@
                 "title": "Thank you for participating in our study!"
             }
         },
-        "tests": {
+        "exit-survey_cond": {
+            "kind": "exp-lookit-exit-survey",
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var eligible = expData['1-study-procedure']['generatedProperties']['ELIGIBLE']; if (eligible) { return { 'debriefing': {                 'text': 'In this study, we were looking at why babies love cats. Your child actually participated. A real debriefing would be more detailed.', 'title': 'Thank you!' } }; } else { return { 'debriefing': {                 'text': 'In this study, we would have looked at why your child loved cats. Your child did not actually participate though. A real debriefing would make more sense.', 'title': 'Thank you!' } }; }}"
+        },
+        "eligibility-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Eligibility survey",
+                    "properties": {
+                        "nCats": {
+                            "type": "integer",
+                            "title": "How many cats do you have?",
+                            "maximum": 200,
+                            "minimum": 0,
+                            "required": true
+                        },
+                        "loveCats": {
+                            "enum": [
+                                "yes",
+                                "no"
+                            ],
+                            "type": "string",
+                            "title": "Does your baby love cats?",
+                            "required": true
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "nCats": {
+                            "numericEntry": true
+                        },
+                        "loveCats": {
+                            "type": "radio",
+                            "message": "Please answer this question.",
+                            "validator": "required-field"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Continue"
+        },
+        "study-procedure": {
+            "kind": "exp-frame-select",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "frameList": [
+                        {
+                            "sources": "VIDEOC"
+                        },
+                        {
+                            "sources": "VIDEO_Prime"
+                        },
+                        {
+                            "sources": "VIDEO_Prepost"
+                        },
+                        {
+                            "sources": "VIDEO_Fam"
+                        },
+                        {
+                            "sources": "VIDEOT1"
+                        },
+                        {
+                            "sources": "VIDEOT2"
+                        },
+                        {
+                            "sources": "VIDEO_Prepost"
+                        },
+                        {
+                            "sources": [],
+                            "altSources": [],
+                            "doRecording": false,
+                            "audioSources": "all_done",
+                            "calibrationLength": 0
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Va",
+                            "VIDEOT2": "Fa"
+                        }
+                    ],
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-composite-video-trial",
+                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+                        "position": "fill",
+                        "testCount": 1,
+                        "audioTypes": [
+                            "ogg",
+                            "mp3"
+                        ],
+                        "pauseAudio": "pause_HO",
+                        "videoTypes": [
+                            "webm",
+                            "mp4"
+                        ],
+                        "attnSources": "attentiongrabber",
+                        "introSources": [],
+                        "musicSources": [],
+                        "unpauseAudio": "return_after_pause_HO",
+                        "announceLength": 3,
+                        "calibrationLength": 0,
+                        "calibrationPositions": [
+                            "left",
+                            "right",
+                            "center"
+                        ],
+                        "calibrationAudioSources": "chimes",
+                        "calibrationVideoSources": "attentiongrabber"
+                    }
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "frameList": [
+                        {
+                            "sources": "VIDEOC"
+                        },
+                        {
+                            "sources": "VIDEO_Prime"
+                        },
+                        {
+                            "sources": "VIDEO_Prepost"
+                        },
+                        {
+                            "sources": "VIDEO_Fam"
+                        },
+                        {
+                            "sources": "VIDEOT1"
+                        },
+                        {
+                            "sources": "VIDEOT2"
+                        },
+                        {
+                            "sources": "VIDEO_Prepost"
+                        },
+                        {
+                            "sources": [],
+                            "altSources": [],
+                            "doRecording": false,
+                            "audioSources": "all_done",
+                            "calibrationLength": 0
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Va",
+                            "VIDEOT2": "Fa"
+                        }
+                    ],
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-composite-video-trial",
+                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+                        "position": "fill",
+                        "testCount": 1,
+                        "audioTypes": [
+                            "ogg",
+                            "mp3"
+                        ],
+                        "pauseAudio": "pause_HO",
+                        "videoTypes": [
+                            "webm",
+                            "mp4"
+                        ],
+                        "attnSources": "attentiongrabber",
+                        "introSources": [],
+                        "musicSources": [],
+                        "unpauseAudio": "return_after_pause_HO",
+                        "announceLength": 3,
+                        "calibrationLength": 0,
+                        "calibrationPositions": [
+                            "left",
+                            "right",
+                            "center"
+                        ],
+                        "calibrationAudioSources": "chimes",
+                        "calibrationVideoSources": "attentiongrabber"
+                    }
+                }
+            ],
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.nCats >= 1 && formData.loveCats == 'yes') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } else { console.log('ineligible'); return { 'whichFrames': 1,  'ELIGIBLE': false } } }"
+        },
+        "tests_orig": {
             "kind": "choice",
             "sampler": "random-parameter-set",
             "frameList": [
@@ -249,15 +459,15 @@
         }
     },
     "sequence": [
-        
+        "eligibility-survey",
         "video-config",
-        "tests",
+        "study-procedure",
+        "exit-survey_cond",
         "exit-survey",
-       "study-intro",
+        "study-intro",
         "video-preview",
         "final-instructions",
         "video-consent",
-        
         "video-quality"
     ]
 }
