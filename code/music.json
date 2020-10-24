@@ -9,11 +9,11 @@
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr. Janet F. Werker",
             "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video to examine where your child is looking on the screen.",
-            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $5 gift certificate to Amazon for participating in this study.",
-            "purpose": "In this activity, we are interested in understanding how young infants and children learn to identify the voices of speakers around them.",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). If you provide your e-mail address, we will send you an electronic gift card to Amazon for participating in this study (residents of the U.S. will receive a 5 USD gift card to Amazon.com; residents of Canada will receive a 7 CAD gift card to Amazon.ca).",
+            "purpose": "In this activity, we are interested in understanding whether hearing a cultural tune, either in a language your baby knows or is unfamiliar with, would affect their ability to differentiate between language-specific speech sounds.",
             "template": "consent_003",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
-            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see and hear different speakers on the screen saying some words. We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
+            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see and/or hear different speakers either singing or speaking. We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
             "institution": "University of British Columbia",
             "additional_segments": [
                 {
@@ -40,7 +40,7 @@
                 {
                     "emph": true,
                     "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "title": "During this study, your baby will watch videos of talking faces while we record where he or she chooses to look."
+                    "title": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by a colourful checkerboard, and we will record where he or she chooses to look."
                 },
                 {
                     "text": "You’ll have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
@@ -97,10 +97,10 @@
                     "title": "Pausing and stopping",
                     "listblocks": [
                         {
-                            "text": "Since there are 15?(TODO) videos in the experiment, we expect that your child may not look at the screen the entire time, so don't worry if your child doesn't do so! Please just try to keep them facing the screen so they can look if they want to."
+                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to."
                         },
                         {
-                            "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if your child gets fussy or distracted, or if you need to attend to something else for a moment."
+                            "text": "However, if your child gets fussy, or you must attend to something else, you may pause the study by pressing the space bar."
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
@@ -163,7 +163,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "You and your baby are helping us to better understand how the preference for visual/auditory synchrony in speech develops over the first 18 months of life. Babies vary in the amount of time they choose to look at the 'synchronized' speaker compared to the 'unsynchronized' speaker - there's no right or wrong preference! We are interested in how much babies' preferences differ at various ages. If you'd like, you can even participate with your baby again next month!\n\nTo thank you for your participation, we'll be emailing you a $4 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don't hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you'll receive one gift card per child. You will also receive another gift card if you participate again with this child if it has been at least one month since the last time this child participated.",
+                "text": "You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\nTo thank you for your participation, we will be emailing you an Amazon gift card (residents of the U.S. will receive a 5 USD gift card to Amazon.com; residents of Canada will receive a 7 CAD gift card to Amazon.ca) - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you'll receive one gift card per child.",
                 "title": "Thank you for participating in our study!"
             }
         },
@@ -179,39 +179,6 @@
                 },
                 {
                     "sources": "VIDEO_Prepost"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEO_Fam"
                 },
                 {
                     "sources": "VIDEO_Fam"
@@ -237,16 +204,16 @@
                 {
                     "VIDEOC": "CalibrationDuck",
                     "VIDEO_Prime": "CantoneseSong",
-                    "VIDEO_Prepost": "GparticlesBell",
-                    "VIDEO_Fam": "Fa",
+                    "VIDEO_Prepost": "starfish",
+                    "VIDEO_Fam": "Fa_English_Long",
                     "VIDEOT1": "Fa", 
                     "VIDEOT2": "Va"
                 },
                 {
                     "VIDEOC": "CalibrationDuck",
                     "VIDEO_Prime": "CantoneseSong",
-                    "VIDEO_Prepost": "GparticlesBell",
-                    "VIDEO_Fam": "Fa",
+                    "VIDEO_Prepost": "starfish",
+                    "VIDEO_Fam": "Fa_English_Long",
                     "VIDEOT1": "Va", 
                     "VIDEOT2": "Fa"
                 }
@@ -282,13 +249,15 @@
         }
     },
     "sequence": [
-        "final-instructions",
+        
+        "video-config",
         "tests",
         "exit-survey",
-        "study-intro",
+       "study-intro",
         "video-preview",
+        "final-instructions",
         "video-consent",
-        "video-config",
+        
         "video-quality"
     ]
 }
