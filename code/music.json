@@ -176,32 +176,24 @@
             "formSchema": {
                 "schema": {
                     "type": "object",
-                    "title": "Eligibility survey",
+                    "title": "Language Exposure Survey",
                     "properties": {
-                        "nCats": {
-                            "type": "integer",
-                            "title": "How many cats do you have?",
-                            "maximum": 200,
-                            "minimum": 0,
-                            "required": true
-                        },
-                        "loveCats": {
+                        "langChoice": {
                             "enum": [
-                                "yes",
-                                "no"
+                                "Cantonese",
+                                "Mandarin", 
+                                "My child does not regularily hear Cantonese or Mandarin"
+                            
                             ],
                             "type": "string",
-                            "title": "Does your baby love cats?",
+                            "title": "Of the two following langauges, which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
                             "required": true
                         }
                     }
                 },
                 "options": {
                     "fields": {
-                        "nCats": {
-                            "numericEntry": true
-                        },
-                        "loveCats": {
+                        "langChoice": {
                             "type": "radio",
                             "message": "Please answer this question.",
                             "validator": "required-field"
@@ -222,10 +214,10 @@
                             "sources": "VIDEOC"
                         },
                         {
-                            "sources": "VIDEO_Prime"
+                            "sources": "VIDEO_Prepost"
                         },
                         {
-                            "sources": "VIDEO_Prepost"
+                            "sources": "VIDEO_Prime"
                         },
                         {
                             "sources": "VIDEO_Fam"
@@ -263,6 +255,54 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Va",
                             "VIDEOT2": "Fa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Va",
+                            "VIDEOT2": "Fa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza",
+                            "VIDEOT2": "Tsa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Tsa",
+                            "VIDEOT2": "Dza"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa",
+                            "VIDEOT2": "Dza"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza",
+                            "VIDEOT2": "Tsa"
                         }
                     ],
                     "commonFrameProperties": {
@@ -302,10 +342,10 @@
                             "sources": "VIDEOC"
                         },
                         {
-                            "sources": "VIDEO_Prime"
+                            "sources": "VIDEO_Prepost"
                         },
                         {
-                            "sources": "VIDEO_Prepost"
+                            "sources": "VIDEO_Prime"
                         },
                         {
                             "sources": "VIDEO_Fam"
@@ -330,19 +370,67 @@
                     "parameterSets": [
                         {
                             "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa",
                             "VIDEOT2": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Va",
                             "VIDEOT2": "Fa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va",
+                            "VIDEOT2": "Fa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Za",
+                            "VIDEOT2": "Ca"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca",
+                            "VIDEOT2": "Za"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Ca",
+                            "VIDEOT2": "Za"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za",
+                            "VIDEOT2": "Ca"
                         }
                     ],
                     "commonFrameProperties": {
@@ -373,90 +461,22 @@
                         "calibrationAudioSources": "chimes",
                         "calibrationVideoSources": "attentiongrabber"
                     }
+                }, 
+                {
+                    "kind": "exp-lookit-text",
+                    "blocks": [{
+                            "emph": true,
+                            "text": "Your child is not eligible for this study"
+                        },
+                        {
+                            "text": "Your child may be eligble for an English-only version of this study. If you are interested in learning more, please contact the Infant Studies Centre as infants@psych.ubc.ca ."
+                        }
+                    ]
                 }
             ],
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.nCats >= 1 && formData.loveCats == 'yes') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } else { console.log('ineligible'); return { 'whichFrames': 1,  'ELIGIBLE': false } } }"
-        },
-        "tests_orig": {
-            "kind": "choice",
-            "sampler": "random-parameter-set",
-            "frameList": [
-                {
-                    "sources": "VIDEOC"
-                },
-                {
-                    "sources": "VIDEO_Prime"
-                },
-                {
-                    "sources": "VIDEO_Prepost"
-                },
-                {
-                    "sources": "VIDEO_Fam"
-                },
-                {
-                    "sources": "VIDEOT1"
-                },
-                {
-                    "sources": "VIDEOT2"
-                },
-                {
-                    "sources": "VIDEO_Prepost"
-                },
-                {
-                    "sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": "all_done",
-                    "calibrationLength": 0
-                }
-            ],
-            "parameterSets": [
-                {
-                    "VIDEOC": "CalibrationDuck",
-                    "VIDEO_Prime": "CantoneseSong",
-                    "VIDEO_Prepost": "starfish",
-                    "VIDEO_Fam": "Fa_English_Long",
-                    "VIDEOT1": "Fa", 
-                    "VIDEOT2": "Va"
-                },
-                {
-                    "VIDEOC": "CalibrationDuck",
-                    "VIDEO_Prime": "CantoneseSong",
-                    "VIDEO_Prepost": "starfish",
-                    "VIDEO_Fam": "Fa_English_Long",
-                    "VIDEOT1": "Va", 
-                    "VIDEOT2": "Fa"
-                }
-            ],
-            "commonFrameProperties": {
-                "kind": "exp-lookit-composite-video-trial",
-                "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/", 
-                "position": "fill",
-                "testCount": 1,
-                "audioTypes": [
-                    "ogg",
-                    "mp3"
-                ],
-                "pauseAudio": "pause_HO",
-                "videoTypes": [
-                    "webm",
-                    "mp4"
-                ],
-                "attnSources": "attentiongrabber",
-                "introSources": [],
-                "musicSources": [],
-                "unpauseAudio": "return_after_pause_HO",
-                "announceLength": 3,
-                "calibrationLength": 0,
-                "calibrationPositions": [
-                    "left",
-                    "right",
-                    "center"
-                ],
-                "calibrationAudioSources": "chimes",
-                "calibrationVideoSources": "attentiongrabber"
-            }
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } } else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': false } } }"
         }
+        
     },
     "sequence": [
         "eligibility-survey",
