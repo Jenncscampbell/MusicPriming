@@ -39,8 +39,11 @@
             "blocks": [
                 {
                     "emph": true,
-                    "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "title": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by a colourful checkerboard, and we will record where he or she chooses to look."
+                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "text": "To be eligible for this study, your child must be regularily hearing Cantonese or Mandarin. If you child is not currently being exposed to one of these languages, they may be eligble for an English-only version of this study. If you are interested in learning more, please contact the Infant Studies Centre as infants@psych.ubc.ca ."
+                },
+                {
+                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by a colourful checkerboard, and we will record where he or she chooses to look."
                 },
                 {
                     "text": "You’ll have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
@@ -91,7 +94,7 @@
             "kind": "exp-lookit-instructions",
             "blocks": [
                 {
-                    "title": "5) Instructions"
+                    "title": "Instructions"
                 },
                 {
                     "title": "Pausing and stopping",
@@ -136,7 +139,7 @@
         },
         "video-quality": {
             "kind": "exp-video-config-quality",
-            "title": "6) Final webcam setup",
+            "title": "Final webcam setup",
             "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
             "showRecordMenu": true,
             "requireTestVideo": true,
@@ -183,11 +186,14 @@
                                 "Cantonese",
                                 "Mandarin", 
                                 "My child does not regularily hear Cantonese or Mandarin"
-                            
                             ],
                             "type": "string",
                             "title": "Of the two following langauges, which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
                             "required": true
+                        }, 
+                        "wrongGrp": {
+                            "title": "If your child does not regularily hear Cantonese or Mandrin, then they will not be eligible for this version of the study. Your child may be eligible for a English-only version, if you would like more information on that version of the study, please contact the Infant Studies Centre at infants@psych.ubc.ca",
+                            "type" : "string"
                         }
                     }
                 },
@@ -474,20 +480,29 @@
                     ]
                 }
             ],
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } } else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': false } } }"
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': true } } }"
         }
         
     },
     "sequence": [
+        
+        
+        
+        "study-intro",
+        "video-consent",
+        "final-instructions",
+        "video-preview",
+        "video-quality",
+        
         "eligibility-survey",
         "video-config",
         "study-procedure",
+        
+        
         "exit-survey_cond",
-        "exit-survey",
-        "study-intro",
-        "video-preview",
-        "final-instructions",
-        "video-consent",
-        "video-quality"
+        "exit-survey"
+        
+        
+        
     ]
 }
