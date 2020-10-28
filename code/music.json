@@ -162,6 +162,7 @@
             ],
             "requireItemConfirmation": true,
             "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
+            
         },
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
@@ -207,6 +208,7 @@
                     }
                 }
             },
+            
             "nextButtonText": "Continue"
         },
         "study-procedure": {
@@ -480,26 +482,26 @@
                     ]
                 }
             ],
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['0-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': true } } }"
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': true } } }"
         }
         
     },
     "sequence": [
         
-        
+
         
         "study-intro",
         "video-consent",
         "final-instructions",
         "video-preview",
         "video-quality",
+        "video-config",
+        
         
         "eligibility-survey",
-        "video-config",
-        "study-procedure",
+        "study-procedure",        
         
         
-        "exit-survey_cond",
         "exit-survey"
         
         
