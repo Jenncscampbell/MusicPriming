@@ -162,7 +162,6 @@
             ],
             "requireItemConfirmation": true,
             "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
-            
         },
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
@@ -185,16 +184,16 @@
                         "langChoice": {
                             "enum": [
                                 "Cantonese",
-                                "Mandarin", 
+                                "Mandarin",
                                 "My child does not regularily hear Cantonese or Mandarin"
                             ],
                             "type": "string",
                             "title": "Of the two following langauges, which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
                             "required": true
-                        }, 
+                        },
                         "wrongGrp": {
                             "title": "If your child does not regularily hear Cantonese or Mandrin, then they will not be eligible for this version of the study. Your child may be eligible for a English-only version, if you would like more information on that version of the study, please contact the Infant Studies Centre at infants@psych.ubc.ca",
-                            "type" : "string"
+                            "type": "string"
                         }
                     }
                 },
@@ -208,7 +207,6 @@
                     }
                 }
             },
-            
             "nextButtonText": "Continue"
         },
         "study-procedure": {
@@ -219,32 +217,190 @@
                     "sampler": "random-parameter-set",
                     "frameList": [
                         {
-                            "sources": "VIDEOC"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOC"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Prepost"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Prime"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Fam"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEOT1"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT1"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEOT2"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },  
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Prepost"
-                        },
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
                         {
-                            "sources": [],
-                            "altSources": [],
-                            "doRecording": false,
-                            "audioSources": "all_done",
-                            "calibrationLength": 0
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },     
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         }
                     ],
                     "parameterSets": [
@@ -254,7 +410,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va"
+                            "VIDEOT2": "Va", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -262,7 +420,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa"
+                            "VIDEOT2": "Fa", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -270,7 +430,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va"
+                            "VIDEOT2": "Va", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -278,7 +440,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa"
+                            "VIDEOT2": "Fa", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -286,7 +450,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza",
-                            "VIDEOT2": "Tsa"
+                            "VIDEOT2": "Tsa",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -294,7 +460,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Tsa",
-                            "VIDEOT2": "Dza"
+                            "VIDEOT2": "Dza",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -302,7 +470,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Tsa",
-                            "VIDEOT2": "Dza"
+                            "VIDEOT2": "Dza",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -310,36 +480,32 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza",
-                            "VIDEOT2": "Tsa"
+                            "VIDEOT2": "Tsa",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
                         }
                     ],
                     "commonFrameProperties": {
-                        "kind": "exp-lookit-composite-video-trial",
+                        "kind": "exp-lookit-video",
                         "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-                        "position": "fill",
-                        "testCount": 1,
+                        
                         "audioTypes": [
                             "ogg",
                             "mp3"
                         ],
-                        "pauseAudio": "pause_HO",
                         "videoTypes": [
                             "webm",
                             "mp4"
                         ],
-                        "attnSources": "attentiongrabber",
-                        "introSources": [],
-                        "musicSources": ["chimes"],
-                        "unpauseAudio": "return_after_pause_HO",
-                        "announceLength": 3,
-                        "calibrationLength": 0,
-                        "calibrationPositions": [
-                            "left",
-                            "right",
-                            "center"
-                        ],
-                        "calibrationAudioSources": "chimes",
-                        "calibrationVideoSources": "attentiongrabber"
+                        "backgroundColor": "white",
+                         "autoProceed": true,
+                         "pauseKey": " ",
+                         "pauseKeyDescription": "space",
+                         "restartAfterPause": true,
+                         "pauseAudio": "pause_HO",
+                         "pauseVideo": "attentiongrabber",
+                         "pauseText": "(You'll have a moment to turn around again.)",
+                         "unpauseAudio": "return_after_pause_HO"
                     }
                 },
                 {
@@ -347,32 +513,197 @@
                     "sampler": "random-parameter-set",
                     "frameList": [
                         {
-                            "sources": "VIDEOC"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOC"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Prepost"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Prime"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEO_Fam"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEOT1"
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT1"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         },
                         {
-                            "sources": "VIDEOT2"
-                        },
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
                         {
-                            "sources": "VIDEO_Prepost"
-                        },
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },     
                         {
                             "sources": [],
                             "altSources": [],
                             "doRecording": false,
                             "audioSources": "all_done",
                             "calibrationLength": 0
+                        },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },     
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         }
                     ],
                     "parameterSets": [
@@ -382,15 +713,19 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va"
+                            "VIDEOT2": "Va",
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa"
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va",
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -398,7 +733,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va"
+                            "VIDEOT2": "Va",
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -406,7 +743,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa"
+                            "VIDEOT2": "Fa",
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -414,7 +753,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Za",
-                            "VIDEOT2": "Ca"
+                            "VIDEOT2": "Ca",
+                            "VIDEOT3": "Za",
+                            "VIDEOT4": "Ca"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -422,7 +763,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca",
-                            "VIDEOT2": "Za"
+                            "VIDEOT2": "Za",
+                            "VIDEOT3": "Za",
+                            "VIDEOT4": "Ca"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -430,7 +773,9 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Ca",
-                            "VIDEOT2": "Za"
+                            "VIDEOT2": "Za",
+                            "VIDEOT3": "Za",
+                            "VIDEOT4": "Ca"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -438,41 +783,38 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Za",
-                            "VIDEOT2": "Ca"
+                            "VIDEOT2": "Ca",
+                            "VIDEOT3": "Za",
+                            "VIDEOT4": "Ca"
                         }
                     ],
                     "commonFrameProperties": {
-                        "kind": "exp-lookit-composite-video-trial",
+                        "kind": "exp-lookit-video",
                         "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-                        "position": "fill",
-                        "testCount": 1,
+                        
                         "audioTypes": [
                             "ogg",
                             "mp3"
                         ],
-                        "pauseAudio": "pause_HO",
                         "videoTypes": [
                             "webm",
                             "mp4"
                         ],
-                        "attnSources": "attentiongrabber",
-                        "introSources": [],
-                        "musicSources": [],
-                        "unpauseAudio": "return_after_pause_HO",
-                        "announceLength": 3,
-                        "calibrationLength": 0,
-                        "calibrationPositions": [
-                            "left",
-                            "right",
-                            "center"
-                        ],
-                        "calibrationAudioSources": "chimes",
-                        "calibrationVideoSources": "attentiongrabber"
+                        "backgroundColor": "white",
+                         "autoProceed": true,
+                         "pauseKey": " ",
+                         "pauseKeyDescription": "space",
+                         "restartAfterPause": true,
+                         "pauseAudio": "pause_HO",
+                         "pauseVideo": "attentiongrabber",
+                         "pauseText": "(You'll have a moment to turn around again.)",
+                         "unpauseAudio": "return_after_pause_HO"
                     }
-                }, 
+                },
                 {
                     "kind": "exp-lookit-text",
-                    "blocks": [{
+                    "blocks": [
+                        {
                             "emph": true,
                             "text": "Your child is not eligible for this study"
                         },
@@ -484,27 +826,16 @@
             ],
             "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': 2,  'ELIGIBLE': true } } }"
         }
-        
     },
     "sequence": [
-        
-
-        
         "study-intro",
         "video-consent",
         "final-instructions",
         "video-preview",
         "video-quality",
         "video-config",
-        
-        
         "eligibility-survey",
-        "study-procedure",        
-        
-        
+        "study-procedure",
         "exit-survey"
-        
-        
-        
     ]
 }
