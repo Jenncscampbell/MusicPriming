@@ -222,11 +222,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -244,11 +244,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -266,11 +266,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -288,11 +288,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -310,11 +310,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -332,11 +332,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -348,6 +348,18 @@
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
                         },  
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
                         {
                             "video": {
                              "loop": false,
@@ -364,11 +376,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -386,11 +398,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -501,9 +513,9 @@
                          "autoProceed": true,
                          "pauseKey": " ",
                          "pauseKeyDescription": "space",
-                         "restartAfterPause": true,
+                         "restartAfterPause": false,
                          "pauseAudio": "pause_HO",
-                         "pauseVideo": "attentiongrabber",
+                         "pauseVideo": "attentiongrabber_orig",
                          "pauseText": "(You'll have a moment to turn around again.)",
                          "unpauseAudio": "return_after_pause_HO"
                     }
@@ -518,11 +530,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -540,11 +552,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -562,11 +574,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -584,11 +596,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -606,11 +618,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -628,11 +640,11 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -643,15 +655,20 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
-                        },     
+                        },    
                         {
-                            "sources": [],
-                            "altSources": [],
-                            "doRecording": false,
-                            "audioSources": "all_done",
-                            "calibrationLength": 0
-                        },
-                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
+                         {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -667,13 +684,13 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
-                        {
+                         {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -682,20 +699,20 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
-                        },     
+                        }, 
                         {
                              "video": {
                                  "loop": false,
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber"
+                                 "source": "attentiongrabber_chimes"
                              },
                              "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
                          },
-                        {
+                         {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -704,7 +721,16 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
+                        },
+                        {
+                            "sources": [],
+                            "altSources": [],
+                            "doRecording": false,
+                            "audioSources": "all_done",
+                            "calibrationLength": 0
                         }
+                    
+                        
                     ],
                     "parameterSets": [
                         {
@@ -804,9 +830,9 @@
                          "autoProceed": true,
                          "pauseKey": " ",
                          "pauseKeyDescription": "space",
-                         "restartAfterPause": true,
+                         "restartAfterPause": false,
                          "pauseAudio": "pause_HO",
-                         "pauseVideo": "attentiongrabber",
+                         "pauseVideo": "attentiongrabber_orig",
                          "pauseText": "(You'll have a moment to turn around again.)",
                          "unpauseAudio": "return_after_pause_HO"
                     }
