@@ -421,80 +421,160 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va", 
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa", 
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va", 
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa", 
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza",
-                            "VIDEOT2": "Tsa",
-                            "VIDEOT3": "Dza",
-                            "VIDEOT4": "Tsa"
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Tsa",
-                            "VIDEOT2": "Dza",
-                            "VIDEOT3": "Dza",
-                            "VIDEOT4": "Tsa"
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa",
-                            "VIDEOT2": "Dza",
-                            "VIDEOT3": "Dza",
-                            "VIDEOT4": "Tsa"
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Dza",
-                            "VIDEOT2": "Tsa",
-                            "VIDEOT3": "Dza",
-                            "VIDEOT4": "Tsa"
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
                         }
                     ],
                     "commonFrameProperties": {
@@ -668,7 +748,7 @@
                              "requireAudioCount": 0,
                              "requireVideoCount": 1
                          },
-                         {
+                        {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -690,7 +770,7 @@
                              "requireAudioCount": 0,
                              "requireVideoCount": 1
                          },
-                         {
+                        {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -712,7 +792,7 @@
                              "requireAudioCount": 0,
                              "requireVideoCount": 1
                          },
-                         {
+                        {
                             "video": {
                              "loop": false,
                              "position": "fill",
@@ -737,82 +817,163 @@
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va",
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va",
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va",
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va",
-                            "VIDEOT2": "Fa",
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Za",
-                            "VIDEOT2": "Ca",
-                            "VIDEOT3": "Za",
-                            "VIDEOT4": "Ca"
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca",
-                            "VIDEOT2": "Za",
-                            "VIDEOT3": "Za",
-                            "VIDEOT4": "Ca"
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
-                            "VIDEOT1": "Ca",
-                            "VIDEOT2": "Za",
-                            "VIDEOT3": "Za",
-                            "VIDEOT4": "Ca"
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test", 
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
                         },
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
-                            "VIDEOT1": "Za",
-                            "VIDEOT2": "Ca",
-                            "VIDEOT3": "Za",
-                            "VIDEOT4": "Ca"
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
                         }
+                        
                     ],
                     "commonFrameProperties": {
                         "kind": "exp-lookit-video",
