@@ -281,47 +281,7 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
-                        }
-                    ],
-                    "parameterSets": [
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish"
                         },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish"
-                        }
-                    ],
-                    "commonFrameProperties": {
-                        "kind": "exp-lookit-video",
-                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-                        
-                        "audioTypes": [
-                            "ogg",
-                            "mp3"
-                        ],
-                        "videoTypes": [
-                            "webm",
-                            "mp4"
-                        ],
-                        "backgroundColor": "white",
-                         "autoProceed": true,
-                         "pauseKey": " ",
-                         "pauseKeyDescription": "space",
-                         "restartAfterPause": false,
-                         "pauseAudio": "pause_HO",
-                         "pauseVideo": "attentiongrabber_orig",
-                         "pauseText": "(You'll have a moment to turn around again.)",
-                         "unpauseAudio": "return_after_pause_HO"
-                    }
-                },
-                {
-                    "kind": "choice",
-                    "sampler": "random-parameter-set",
-                    "frameList": [
                         {
                              "video": {
                                  "loop": false,
@@ -367,19 +327,94 @@
                             "requireAudioCount": 0
                         },
                         {
-                        "parameterSets": [
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
                         {
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa",
-                            "VIDEOT2": "Va", 
-                            "VIDEOT3": "Fa",
-                            "VIDEOT4": "Va"
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },  
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },     
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 0,
+                             "requireVideoCount": 1
+                         },
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
                         }
-                        ]
-                        }
-                        ]
-                        ,
-                        
+                    ],
                     "parameterSets": [
                         {
                             "VIDEOC": "CalibrationDuck",
@@ -401,6 +436,66 @@
                             "VIDEOT3": "Fa",
                             "VIDEOT4": "Va"
                         },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa",
+                            "VIDEOT2": "Va", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Va",
+                            "VIDEOT2": "Fa", 
+                            "VIDEOT3": "Fa",
+                            "VIDEOT4": "Va"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza",
+                            "VIDEOT2": "Tsa",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Tsa",
+                            "VIDEOT2": "Dza",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa",
+                            "VIDEOT2": "Dza",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza",
+                            "VIDEOT2": "Tsa",
+                            "VIDEOT3": "Dza",
+                            "VIDEOT4": "Tsa"
+                        }
                     ],
                     "commonFrameProperties": {
                         "kind": "exp-lookit-video",
@@ -755,7 +850,7 @@
                     ]
                 }
             ],
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': [0,1], 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 2, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': 3,  'ELIGIBLE': true } } }"
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': [2],  'ELIGIBLE': true } } }"
         }
     },
     "sequence": [
