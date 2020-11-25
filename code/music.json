@@ -230,16 +230,16 @@
                     "sampler": "random-parameter-set",
                     "frameList": [
                         {
-                             "video": {
-                                 "loop": false,
-                                 "top": 40,
-                                 "left": 45,
-                                 "width": 10,
-                                 "source": "attentiongrabber_chimes"
-                             },
-                             "doRecording": false,
-                             "requireAudioCount": 0,
-                             "requireVideoCount": 1
+                         "video": {
+                             "loop": false,
+                             "top": 40,
+                             "left": 45,
+                             "width": 10,
+                             "source": "attentiongrabber_chimes"
+                         },
+                         "doRecording": false,
+                         "requireAudioCount": 0,
+                         "requireVideoCount": 1
                          },
                         {
                             "video": {
@@ -434,20 +434,20 @@
                             "requireAudioCount": 0
                         },
                         {
-                             "video": {
-                                 "loop": false,
-                                 "top": 40,
-                                 "left": 45,
-                                 "width": 10,
-                                 "source": "attentiongrabber_chimes"
-                             },
-                             "audio": {
-                                 "loop": false,
-                                 "source": "all_done"
-                             },
-                             "doRecording": false,
-                             "requireAudioCount": 1,
-                             "requireVideoCount": 0
+                         "video": {
+                             "loop": false,
+                             "top": 40,
+                             "left": 45,
+                             "width": 10,
+                             "source": "attentiongetter_end"
+                         },
+                         "audio": {
+                             "loop": false,
+                             "source": "all_done"
+                         },
+                         "doRecording": false,
+                         "requireAudioCount": 1,
+                         "requireVideoCount": 0
                          }
                     ],
                     "parameterSets": [
@@ -848,7 +848,7 @@
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber_chimes"
+                                 "source": "attentiongetter_end"
                              },
                              "audio": {
                                  "loop": false,
@@ -1255,22 +1255,12 @@
                             "requireAudioCount": 0
                         }, 
                         {
-                            "video": {
-                             "loop": false,
-                             "position": "fill",
-                             "source": "VIDEO_Prepost"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
                              "video": {
                                  "loop": false,
                                  "top": 40,
                                  "left": 45,
                                  "width": 10,
-                                 "source": "attentiongrabber_chimes"
+                                 "source": "attentiongetter_end"
                              },
                              "audio": {
                                  "loop": false,
