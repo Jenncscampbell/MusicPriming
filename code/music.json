@@ -266,12 +266,15 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
-                            "requireAudioCount": 0
+                            "requireAudioCount": 0,
+                            "backgroundColor": "black"
                         },
                         {
                              "video": {
@@ -421,7 +424,9 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
@@ -671,7 +676,9 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
@@ -826,7 +833,9 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
@@ -1079,7 +1088,9 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
@@ -1234,7 +1245,9 @@
                         {
                             "video": {
                              "loop": false,
-                             "position": "fill",
+                             "top": 15,
+                             "left": 20,
+                             "width": 60,
                              "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
