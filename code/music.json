@@ -9,7 +9,7 @@
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr. Janet F. Werker",
             "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video to examine where your child is looking on the screen.",
-            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). If you provide your e-mail address, we will send you an electronic gift card to Amazon for participating in this study (residents of the U.S. will receive a 5 USD gift card to Amazon.com; residents of Canada will receive a 7 CAD gift card to Amazon.ca).",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). If you provide your e-mail address, we will send you a $5 electronic gift card to Amazon for participating in this study.",
             "purpose": "In this activity, we are interested in understanding whether hearing a cultural tune, either in a language your baby knows or is unfamiliar with, would affect their ability to differentiate between language-specific speech sounds.",
             "template": "consent_003",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
@@ -17,7 +17,7 @@
             "institution": "University of British Columbia",
             "additional_segments": [
                 {
-                    "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and familiarity with music. TODO",
+                    "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and familiarity with music.",
                     "title": "Language survey"
                 },
                 {
@@ -33,20 +33,20 @@
                     "title": "Data sharing"
                 }
             ],
-            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: TODO)."
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
         },
         "study-intro": {
             "blocks": [
                 {
                     "emph": true,
                     "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "text": "To be eligible for this study, your child must be regularily hearing Cantonese or Mandarin. If your child is not currently being exposed to one of these languages, they may be eligble for an English-only version of this study. If you are interested in learning more, please contact the Infant Studies Centre as infants@psych.ubc.ca ."
+                    "text": "To be eligible for this study, your child must be regularily hearing 90-100% English OR hearing at least 30% English AND at least 20% Cantonese or Mandarin."
                 },
                 {
-                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by a colourful checkerboard and we will record where he or she chooses to look."
+                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by rainbow dots and we will record where he or she chooses to look."
                 },
                 {
-                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
+                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
                     "text": "The video section will take about 5 minutes."
@@ -63,10 +63,10 @@
             "stimuli": [
                 {
                     "caption": "At the begining of the study, there will be a woman singing in either English, Mandarin, or Cantonese. Following this, there will be several trials where infants will hear repeated speech sounds. Here's an example.",
-                    "video": "attentiongrabber"
+                    "video": "preview"
                 }
             ],
-            "baseDir": "https://www.mit.edu/~kimscott/intermodal/",
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
             "videoTypes": [
                 "webm",
                 "mp4"
@@ -88,7 +88,7 @@
             ],
             "skipButtonText": "Skip preview",
             "previewButtonText": "Preview a video (my child can't see the screen)",
-            "showPreviousButton": true
+            "showPreviousButton": false 
         },
         "final-instructions": {
             "kind": "exp-lookit-instructions",
@@ -100,10 +100,11 @@
                     "title": "Pausing and stopping",
                     "listblocks": [
                         {
-                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to."
+                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
                         },
                         {
-                            "text": "If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar. Please only pause the study if your child is fussy."
+                            "emph": true,
+                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking"
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
@@ -135,7 +136,8 @@
                     }
                 }
             ],
-            "nextButtonText": "Finalize your webcam settings"
+            "nextButtonText": "Finalize your webcam settings",
+            "showPreviousButton": false
         },
         "video-quality": {
             "kind": "exp-video-config-quality",
@@ -166,7 +168,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\nTo thank you for your participation, we will be emailing you an Amazon gift card (residents of the U.S. will receive a 5 USD gift card to Amazon.com; residents of Canada will receive a 7 CAD gift card to Amazon.ca) - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you'll receive one gift card per child.",
+                "text": "You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\nTo thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
                 "title": "Thank you for participating in our study!"
             }
         },
@@ -199,10 +201,10 @@
                             "enum": [
                                 "Cantonese",
                                 "Mandarin",
-                                "My child does not regularily hear Cantonese or Mandarin"
+                                "My child does not regularly hear Cantonese or Mandarin"
                             ],
                             "type": "string",
-                            "title": "In addition to English, if your child regularily hears Cantonese or Mandarin which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
+                            "title": "In addition to English, if your child regularly hears Cantonese or Mandarin which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
                             "required": true
                         }
                     }
@@ -217,7 +219,8 @@
                     }
                 }
             },
-            "nextButtonText": "Continue"
+            "nextButtonText": "Continue",
+            "showPreviousButton": false
         },
         "study-procedure": {
             "kind": "exp-frame-select",
@@ -264,7 +267,7 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prime"
+                             "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
@@ -286,12 +289,13 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prepost"
+                             "source": "VIDEO_Prime"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
                         },
+                        
                         {
                              "video": {
                                  "loop": false,
@@ -423,7 +427,23 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
-                        }
+                        },
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "audio": {
+                                 "loop": false,
+                                 "source": "all_done"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         }
                     ],
                     "parameterSets": [
                         {
@@ -433,7 +453,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -441,7 +461,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -452,7 +472,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test", 
+                            "VIDEOT2": "Fa_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
@@ -463,7 +483,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -473,7 +493,7 @@
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
+                            "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -481,7 +501,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
+                            "VIDEOT1": "Tsa_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -493,7 +513,7 @@
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -501,7 +521,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT1": "Dza_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -513,7 +533,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -521,7 +541,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -532,7 +552,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test", 
+                            "VIDEOT2": "Fa_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
@@ -543,7 +563,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -553,7 +573,7 @@
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
+                            "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -561,7 +581,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
+                            "VIDEOT1": "Tsa_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -573,7 +593,7 @@
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -581,7 +601,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT1": "Dza_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -599,7 +619,7 @@
                             "webm",
                             "mp4"
                         ],
-                        "backgroundColor": "white",
+                        "backgroundColor": "black",
                          "autoProceed": true,
                          "pauseKey": " ",
                          "pauseKeyDescription": "space",
@@ -652,7 +672,7 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prime"
+                             "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
@@ -674,12 +694,13 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prepost"
+                             "source": "VIDEO_Prime"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
                         },
+                        
                         {
                              "video": {
                                  "loop": false,
@@ -813,12 +834,21 @@
                             "requireAudioCount": 0
                         },
                         {
-                            "sources": [],
-                            "altSources": [],
-                            "doRecording": false,
-                            "audioSources": "all_done",
-                            "calibrationLength": 0
-                        }
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "audio": {
+                                 "loop": false,
+                                 "source": "all_done"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         }
                     
                         
                     ],
@@ -830,7 +860,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -838,7 +868,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -850,7 +880,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -858,7 +888,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
+                            "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -870,7 +900,7 @@
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
+                            "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -878,7 +908,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_test",
+                            "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -890,7 +920,7 @@
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Za_test",
-                            "VIDEOT3": "Za_test",
+                            "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -898,7 +928,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
-                            "VIDEOT1": "Za_test",
+                            "VIDEOT1": "Ca_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -910,7 +940,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -918,7 +948,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -930,7 +960,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -938,7 +968,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
+                            "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -950,7 +980,7 @@
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
+                            "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -958,7 +988,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_test",
+                            "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -969,7 +999,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
-                            "VIDEOT2": "Za_test",
+                            "VIDEOT2": "Ca_test",
                             "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
@@ -980,7 +1010,7 @@
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
-                            "VIDEOT3": "Za_test",
+                            "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
                         }
                         
@@ -997,7 +1027,7 @@
                             "webm",
                             "mp4"
                         ],
-                        "backgroundColor": "white",
+                        "backgroundColor": "black",
                          "autoProceed": true,
                          "pauseKey": " ",
                          "pauseKeyDescription": "space",
@@ -1050,7 +1080,7 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prime"
+                             "source": "VIDEO_Prepost"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
@@ -1072,12 +1102,13 @@
                             "video": {
                              "loop": false,
                              "position": "fill",
-                             "source": "VIDEO_Prepost"
+                             "source": "VIDEO_Prime"
                             },
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
                         },
+                        
                         {
                              "video": {
                                  "loop": false,
@@ -1209,7 +1240,34 @@
                             "doRecording": true,
                             "requireVideoCount": 1,
                             "requireAudioCount": 0
-                        }
+                        }, 
+                        {
+                            "video": {
+                             "loop": false,
+                             "position": "fill",
+                             "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                             "video": {
+                                 "loop": false,
+                                 "top": 40,
+                                 "left": 45,
+                                 "width": 10,
+                                 "source": "attentiongrabber_chimes"
+                             },
+                             "audio": {
+                                 "loop": false,
+                                 "source": "all_done"
+                             },
+                             "doRecording": false,
+                             "requireAudioCount": 1,
+                             "requireVideoCount": 0
+                         }
+                        
                     ],
                     "parameterSets": [
                         {
@@ -1219,7 +1277,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1227,7 +1285,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1239,7 +1297,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1247,7 +1305,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
+                            "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1259,7 +1317,7 @@
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
+                            "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -1267,7 +1325,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
+                            "VIDEOT1": "Tsa_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -1279,7 +1337,7 @@
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -1287,7 +1345,7 @@
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT1": "Dza_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -1299,7 +1357,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1307,7 +1365,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1318,7 +1376,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test", 
+                            "VIDEOT2": "Fa_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
@@ -1329,7 +1387,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1338,7 +1396,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
-                            "VIDEOT2": "Dza_test",
+                            "VIDEOT2": "Tsa_test",
                             "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
@@ -1349,7 +1407,7 @@
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_test",
                             "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Dza_test",
+                            "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -1359,7 +1417,7 @@
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
                         {
@@ -1367,7 +1425,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT1": "Dza_test",
                             "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Tsa_test",
                             "VIDEOT4": "Tsa_Dza_test"
@@ -1379,7 +1437,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1387,7 +1445,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1399,7 +1457,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1407,7 +1465,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
+                            "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1419,7 +1477,7 @@
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
+                            "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -1427,7 +1485,7 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_test",
+                            "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -1438,7 +1496,7 @@
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
-                            "VIDEOT2": "Za_test",
+                            "VIDEOT2": "Ca_test",
                             "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
@@ -1449,7 +1507,7 @@
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
-                            "VIDEOT3": "Za_test",
+                            "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -1459,7 +1517,7 @@
                             "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Fa_test", 
-                            "VIDEOT3": "Fa_test",
+                            "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1467,7 +1525,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
+                            "VIDEOT1": "Va_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1479,7 +1537,7 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test", 
-                            "VIDEOT3": "Va_test",
+                            "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
                         {
@@ -1487,7 +1545,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
+                            "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test", 
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
@@ -1499,7 +1557,7 @@
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
+                            "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -1507,7 +1565,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_test",
+                            "VIDEOT1": "Za_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -1519,7 +1577,7 @@
                             "VIDEO_Fam": "Za_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Za_test",
-                            "VIDEOT3": "Za_test",
+                            "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
                         {
@@ -1527,7 +1585,7 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Za_Mandarin_Long",
-                            "VIDEOT1": "Za_test",
+                            "VIDEOT1": "Ca_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Za_test",
                             "VIDEOT4": "Za_Ca_test"
@@ -1545,7 +1603,7 @@
                             "webm",
                             "mp4"
                         ],
-                        "backgroundColor": "white",
+                        "backgroundColor": "black",
                          "autoProceed": true,
                          "pauseKey": " ",
                          "pauseKeyDescription": "space",
