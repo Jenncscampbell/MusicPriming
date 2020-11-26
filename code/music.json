@@ -159,10 +159,14 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. The final portion of the study is a language questionniare:  (<a href=’https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL’ rel=’noopener’ target=’_blank’>Link text</a>). We really appreciate your help with this investigation!\n\n Once you have completed the survey you are all done the study! \n\nTo thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
-                "title": "Thank you for participating in our study!"
+                
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
+                    "title": "Thank you for participating in our study!"
             }
-        },
+            },
+               
+            
+
         "exit-survey_cond": {
             "kind": "exp-lookit-exit-survey",
             "generateProperties": "function(expData, sequence, child, pastSessions) {var eligible = expData['1-study-procedure']['generatedProperties']['ELIGIBLE']; if (eligible) { return { 'debriefing': {                 'text': 'In this study, we were looking at why babies love cats. Your child actually participated. A real debriefing would be more detailed.', 'title': 'Thank you!' } }; } else { return { 'debriefing': {                 'text': 'In this study, we would have looked at why your child loved cats. Your child did not actually participate though. A real debriefing would make more sense.', 'title': 'Thank you!' } }; }}"
@@ -199,7 +203,7 @@
                         }, 
                         "email":{
                             "type": "string",
-                            "title": "At the end of the study, we have a quesitonnaire which is linked to look through your email. Please enter your email address here: ",
+                            "title": "At the end of the study, we have a detailed quesitonnaire which is linked to Lookit through your email. Please enter your email address here: ",
                             "required": true
                         }
                     }
@@ -1611,14 +1615,20 @@
         "qualt-link": {
             "blocks": [{
                     "emph": true,
-                    "title": "For this final portion, your child does not need to be with you!",
-                    "text": "The last part of this study is a questionnaire which will ask you about your child's language environment."
+                    "title": "For this final portion, your child does not need to be with you!"
                 },
                 {
-                    "text": "Please click the link to complete the questionniare and then return to lookit."
+                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
                 },
                 {
                     "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
+                }, 
+                {
+                    "text": ""
+                },
+                {
+                    "emph": true,
+                    "text": "Please do not close this window. Once you are done the survey, click Next."
                 }
             ],
             "showPreviousButton": false,
@@ -1626,7 +1636,9 @@
         }
     },
         "sequence": [
+            
             "study-intro",
+            
             
             "video-consent",
             "final-instructions",
@@ -1637,6 +1649,9 @@
             "study-procedure",
             "qualt-link",
             "exit-survey"
+            
+            
+            
             
         ]
     }
