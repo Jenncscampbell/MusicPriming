@@ -9,27 +9,23 @@
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr. Janet F. Werker",
             "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video to examine where your child is looking on the screen.",
-            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). If you provide your e-mail address, we will send you a $5 electronic gift card to Amazon for participating in this study.",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). Within 5 business days of completing the study, we will send you a $5 electronic gift card to Amazon to thank you for participating; we will use the e-mail address you provide at the end of the study. ",
             "purpose": "In this activity, we are interested in understanding whether hearing a cultural tune, either in a language your baby knows or is unfamiliar with, would affect their ability to differentiate between language-specific speech sounds.",
             "template": "consent_003",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
-            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see and/or hear different speakers either singing or speaking. We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
+            "procedures": "This study takes about 15 minutes to complete. First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). In the first half of the study, your child will see and/or hear different speakers either singing or speaking. In the second half of the study, speech sounds will be repeated for a few minutes, and we are interested in your child’s looking behaviour to the screen in response to what they hear. It’s okay if your child sometimes looks away from the screen, there is no need to redirect their attention. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant. After the study, you will be asked to complete a questionnaire about your child's language exposure, early vocabulary development, and familiarity with music. This questionnaire is hosted on the Qualtrics platform by the University of British Columbia. If you consent to participate today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance. ",
             "institution": "University of British Columbia",
             "additional_segments": [{
-                    "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and familiarity with music.",
-                    "title": "Language survey"
+                    "text": "To comply with guidelines from research funders and journal publications, data from this study may be made “open access”, that is, shared publicly. The shared data will not contain information that can be used to identify you or your child. The data we collect is typically made open access via online repositories like the Open Science Framework (https://osf.io). Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data. ",
+                    "title": "Open access"
                 },
                 {
-                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>.",
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>. Child Protection Disclosure If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. Data sharing To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
                     "title": "US Patriot Act Disclosure"
                 },
                 {
-                    "text": "If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities.",
+                    "text": "If, upon review of your stored video, a researcher was to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. ",
                     "title": "Child Protection Disclosure"
-                },
-                {
-                    "text": "To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
-                    "title": "Data sharing"
                 }
             ],
             "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
@@ -164,9 +160,6 @@
                     "title": "Thank you for participating in our study!"
             }
             },
-               
-            
-
         "exit-survey_cond": {
             "kind": "exp-lookit-exit-survey",
             "generateProperties": "function(expData, sequence, child, pastSessions) {var eligible = expData['1-study-procedure']['generatedProperties']['ELIGIBLE']; if (eligible) { return { 'debriefing': {                 'text': 'In this study, we were looking at why babies love cats. Your child actually participated. A real debriefing would be more detailed.', 'title': 'Thank you!' } }; } else { return { 'debriefing': {                 'text': 'In this study, we would have looked at why your child loved cats. Your child did not actually participate though. A real debriefing would make more sense.', 'title': 'Thank you!' } }; }}"
@@ -1773,8 +1766,6 @@
         "sequence": [
             
             "study-intro",
-            
-            
             "video-consent",
             "final-instructions",
             "video-preview",
