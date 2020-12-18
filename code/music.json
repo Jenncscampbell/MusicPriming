@@ -16,7 +16,7 @@
             "procedures": "This study takes about 15 minutes to complete. First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). In the first half of the study, your child will see and/or hear different speakers either singing or speaking. In the second half of the study, speech sounds will be repeated for a few minutes, and we are interested in your child’s looking behaviour to the screen in response to what they hear. It’s okay if your child sometimes looks away from the screen, there is no need to redirect their attention. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant. After the study, you will be asked to complete a questionnaire about your child's language exposure, early vocabulary development, and familiarity with music. This questionnaire is hosted on the Qualtrics platform by the University of British Columbia. If you consent to participate today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance. ",
             "institution": "University of British Columbia",
             "additional_segments": [{
-                    "text": "To comply with guidelines from research funders and journal publications, data from this study may be made “open access”, that is, shared publicly. The shared data will not contain information that can be used to identify you or your child. The data we collect is typically made open access via online repositories like the Open Science Framework (https://osf.io). Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data. ",
+                    "text": "To comply with guidelines from research funders and journal publications, data from this study may be made “open access”, that is, shared publicly. The shared data will not contain information that can be used to identify you or your child. The looking time data we collect (not videos) is typically made open access via online repositories like the Open Science Framework (https://osf.io).  Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data. ",
                     "title": "Open access"
                 },
                 {
@@ -43,7 +43,7 @@
                     "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "The video section will take about 5 minutes."
+                    "text": "The video section will take about 5 to 10 minutes."
                 },
                 {
                     "text": "After the videos, you will answer a few final questions. Then you're all done!"
@@ -74,7 +74,7 @@
                     "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
                 },
                 {
-                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them."
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
                 }
             ],
             "skipButtonText": "Skip preview",
@@ -156,7 +156,7 @@
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 
-                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionniare, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>. Once you have completed this then you are done the study! \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
                     "title": "Thank you for participating in our study!"
             }
             },
@@ -219,7 +219,18 @@
             "frameOptions": [{
                     "kind": "choice",
                     "sampler": "random-parameter-set",
-                    "frameList": [{
+                    "frameList": [
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "begin"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
                             "video": {
                                 "loop": false,
                                 "top": 40,
@@ -672,7 +683,18 @@
                 {
                     "kind": "choice",
                     "sampler": "random-parameter-set",
-                    "frameList": [{
+                    "frameList": [
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "begin"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
                             "video": {
                                 "loop": false,
                                 "top": 40,
@@ -1127,7 +1149,17 @@
                 {
                     "kind": "choice",
                     "sampler": "random-parameter-set",
-                    "frameList": [{
+                    "frameList": [
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "begin"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },{
                             "video": {
                                 "loop": false,
                                 "top": 40,
@@ -1766,11 +1798,11 @@
         "sequence": [
             
             "study-intro",
+            "video-config",
             "video-consent",
             "final-instructions",
             "video-preview",
             "video-quality",
-            "video-config",
             "eligibility-survey",
             "study-procedure",
             "qualt-link",
