@@ -1796,7 +1796,6 @@
         }
     },
         "sequence": [
-            
             "study-intro",
             "video-config",
             "video-consent",
@@ -1807,9 +1806,6 @@
             "study-procedure",
             "qualt-link",
             "exit-survey"
-            
-            
-            
             
         ]
     }
