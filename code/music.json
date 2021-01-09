@@ -43,7 +43,7 @@
                     "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "The video section will take about 5 to 10 minutes."
+                    "text": "The video section will take about 10 minutes."
                 },
                 {
                     "text": "After the videos, you will answer a few final questions. Then you're all done!"
@@ -75,9 +75,12 @@
                 },
                 {
                     "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
+                }, 
+                {
+                    "text": "If you wish the skip the preview and are ready to start the study, please press the skip button below. You will have a moment to turn around before the first trial begins."
                 }
             ],
-            "skipButtonText": "Skip preview",
+            "skipButtonText": "Skip the preview and begin the study",
             "previewButtonText": "Preview a video (my child can't see the screen)",
             "showPreviousButton": false
         },
@@ -146,13 +149,13 @@
                 }
             ],
             "requireItemConfirmation": true,
-            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks."
         },
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 
-                    "text": "If you have completed the survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionniare, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>. Once you have completed this, you are done the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "text": "If you have completed the survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants distinguish between different languages and how they learn multiple languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. In this study, each child is primed with a song either in English, Cantonese or Mandarin. To assess whether hearing this song activated a language, each child is familiarized with a linguistic sound specific to one of the three languages and then presented with a minimally different linguistic sound. These minimally different sounds can be hard to discriminate from one another. We hypothesize that prior activation of a language will boost infants' perception of minimally different sounds in that language. If infants are able to use contextual information to activate a particular language, this could help to explain the rapid pace of language learning that is observed in young infants. \n\n We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionnaire, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>. Once you have completed this, you are done with the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
                     "title": "Thank you for participating in our study!"
             }
             },
@@ -1766,7 +1769,7 @@
                     }
                 }
             ],
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': [2],  'ELIGIBLE': true } } }"
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['3-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': [2],  'ELIGIBLE': true } } }"
         }, 
         "qualt-link": {
             "blocks": [{
@@ -1795,10 +1798,12 @@
             "study-intro",
             "video-config",
             "video-consent",
-            "final-instructions",
-            "video-preview",
-            "video-quality",
             "eligibility-survey",
+            "final-instructions",
+            
+            "video-quality",
+            "video-preview",
+            
             "study-procedure",
             "qualt-link",
             "exit-survey"
