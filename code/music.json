@@ -676,7 +676,8 @@
                         "pauseAudio": "pause_HO",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause_HO", 
+                        "waitForRecordingMessageColor": "black"
                     }
                 },
                 {
@@ -1142,7 +1143,8 @@
                         "pauseAudio": "pause_HO",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause_HO",
+                        "waitForRecordingMessageColor": "black"
                     }
                 },
                 {
@@ -1765,7 +1767,8 @@
                         "pauseAudio": "pause_HO",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause_HO",
+                        "waitForRecordingMessageColor": "black"
                     }
                 }
             ],
