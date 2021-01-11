@@ -223,7 +223,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
@@ -687,7 +687,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
@@ -1153,7 +1153,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
