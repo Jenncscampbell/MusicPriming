@@ -641,7 +641,6 @@
                         "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
 
                         "audioTypes": [
-                            "ogg",
                             "mp3"
                         ],
                         "videoTypes": [
@@ -1107,7 +1106,6 @@
                         "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
 
                         "audioTypes": [
-                            "ogg",
                             "mp3"
                         ],
                         "videoTypes": [
@@ -1730,7 +1728,6 @@
                         "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
 
                         "audioTypes": [
-                            "ogg",
                             "mp3"
                         ],
                         "videoTypes": [
