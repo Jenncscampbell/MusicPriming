@@ -1,5 +1,27 @@
 {
     "frames": {
+        "study-intro": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "Important: Your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "text": "To be eligible for this study, your child must be hearing:<ul><li> Only English (90-100% of the time)  OR</li> <li> Both English and Cantonese/Mandarin (at least 30% English AND at least 20% Cantonese OR Mandarin) <ul/>"
+                },
+                {
+                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by rainbow dots and we will record where he or she chooses to look."
+                },
+                {
+                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
+                },
+                {
+                    "text": "The video section will take about 10 minutes."
+                },
+                {
+                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
         "video-config": {
             "kind": "exp-video-config",
             "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
@@ -20,7 +42,7 @@
                     "title": "Open access"
                 },
                 {
-                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>. Child Protection Disclosure If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. Data sharing To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>. ",
                     "title": "US Patriot Act Disclosure"
                 },
                 {
@@ -29,152 +51,6 @@
                 }
             ],
             "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
-        },
-        "study-intro": {
-            "blocks": [{
-                    "emph": true,
-                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "text": "To be eligible for this study, your child must be regularly hearing 90-100% English OR hearing at least 30% English AND at least 20% Cantonese or Mandarin."
-                },
-                {
-                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by rainbow dots and we will record where he or she chooses to look."
-                },
-                {
-                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
-                },
-                {
-                    "text": "The video section will take about 10 minutes."
-                },
-                {
-                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
-                }
-            ],
-            "showPreviousButton": false,
-            "kind": "exp-lookit-text"
-        },
-        "video-preview": {
-            "kind": "exp-lookit-stimuli-preview",
-            "stimuli": [{
-                "caption": "At the begining of the study, there will be a woman singing in either English, Mandarin, or Cantonese. Following this, there will be several trials where infants will hear repeated speech sounds. Here's an example.",
-                "video": "preview"
-            }],
-            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-            "videoTypes": [
-                "webm",
-                "mp4"
-            ],
-            "blocks": [{
-                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
-                    "image": {
-                        "alt": "Father holding child looking over his shoulder",
-                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
-                    }
-                },
-                {
-                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
-                },
-                {
-                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
-                }, 
-                {
-                    "text": "If you wish the skip the preview and are ready to start the study, please press the skip button below. You will have a moment to turn around before the first trial begins."
-                }
-            ],
-            "skipButtonText": "Skip the preview and begin the study",
-            "previewButtonText": "Preview a video (my child can't see the screen)",
-            "showPreviousButton": false
-        },
-        "final-instructions": {
-            "kind": "exp-lookit-instructions",
-            "blocks": [{
-                    "title": "Instructions"
-                },
-                {
-                    "title": "Pausing and stopping",
-                    "listblocks": [{
-                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
-                        },
-                        {
-                            "emph": true,
-                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking"
-                        },
-                        {
-                            "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
-                        },
-                        {
-                            "emph": true,
-                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
-                        }
-                    ]
-                },
-                {
-                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
-                    "title": "Test your audio",
-                    "mediaBlock": {
-                        "text": "You should hear 'Ready? Go!'",
-                        "isVideo": false,
-                        "sources": [{
-                                "src": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/mp3/readygo_HO.mp3",
-                                "type": "audio/mp3"
-                            }
-                        ],
-                        "mustPlay": true,
-                        "warningText": "Please try playing the sample audio."
-                    }
-                }
-            ],
-            "nextButtonText": "Finalize your webcam settings",
-            "showPreviousButton": false
-        },
-        "video-quality": {
-            "kind": "exp-video-config-quality",
-            "title": "Final webcam setup",
-            "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
-            "showRecordMenu": true,
-            "requireTestVideo": true,
-            "completedItemText": "Did it!",
-            "instructionBlocks": [{
-                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
-                    "image": {
-                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
-                    }
-                },
-                {
-                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
-                    "image": {
-                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
-                    }
-                }
-            ],
-            "requireItemConfirmation": true,
-            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks."
-        },
-        "exit-survey": {
-            "kind": "exp-lookit-exit-survey",
-            "debriefing": {
-                
-                    "text": "If you have completed the survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants distinguish between different languages and how they learn multiple languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. In this study, each child is primed with a song either in English, Cantonese or Mandarin. To assess whether hearing this song activated a language, each child is familiarized with a linguistic sound specific to one of the three languages and then presented with a minimally different linguistic sound. These minimally different sounds can be hard to discriminate from one another. We hypothesize that prior activation of a language will boost infants' perception of minimally different sounds in that language. If infants are able to use contextual information to activate a particular language, this could help to explain the rapid pace of language learning that is observed in young infants. \n\n We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionnaire, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>. Once you have completed this, you are done with the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
-                    "title": "Thank you for participating in our study!"
-            }
-            },
-        "exit-survey_cond": {
-            "kind": "exp-lookit-exit-survey",
-            "generateProperties": "function(expData, sequence, child, pastSessions) {var eligible = expData['1-study-procedure']['generatedProperties']['ELIGIBLE']; if (eligible) { return { 'debriefing': {                 'text': 'In this study, we were looking at why babies love cats. Your child actually participated. A real debriefing would be more detailed.', 'title': 'Thank you!' } }; } else { return { 'debriefing': {                 'text': 'In this study, we would have looked at why your child loved cats. Your child did not actually participate though. A real debriefing would make more sense.', 'title': 'Thank you!' } }; }}"
-        },
-        "study-desc": {
-            "blocks": [{
-                    "emph": true,
-                    "title": "Language exposure",
-                    "text": "This study has multiple conditions for suitible for children of various language backgrounds."
-                },
-                {
-                    "text": "The current study is designed for children who are either only hearing English or children who are hearing a combination of English, Cantonese or Mandarin. The next page will present you with an option to select your child's langauge background."
-                }
-            ],
-            "showPreviousButton": false,
-            "kind": "exp-lookit-text"
         },
         "eligibility-survey": {
             "kind": "exp-lookit-survey",
@@ -213,6 +89,110 @@
             "nextButtonText": "Continue",
             "showPreviousButton": false
         },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [{
+                    "title": "Instructions"
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [{
+                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
+                        },
+                        {
+                            "emph": true,
+                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking."
+                        },
+                        {
+                            "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
+                        },
+                        {
+                            "emph": true,
+                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready? Go!'",
+                        "isVideo": false,
+                        "sources": [{
+                                "src": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/mp3/readygo_HO.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "nextButtonText": "Next",
+            "showPreviousButton": false
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [{
+                "caption": "At the begining of the study, there will be a woman singing in either English, Mandarin, or Cantonese. Following this, there will be several trials where infants will hear repeated speech sounds. Here's an example.",
+                "video": "preview"
+            }],
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+            "videoTypes": [
+                "mp4"
+            ],
+            "blocks": [
+                {
+                    "text": "<strong> Preview the study </sttrong>"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
+                }, 
+                {
+                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                
+                {
+                    "text": "If you wish the skip the preview, please press the skip button below."
+                }
+            ],
+            "skipButtonText": "Skip the preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": false
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Final webcam setup",
+            "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
+                    "image": {
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                }, 
+                {
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen. Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. Please ensure you can see your child's eyes in the video. \n\n Once you are ready to begin the study, please click the next button. You will have a moment to turn around before the first trial begins."
+        },
         "study-procedure": {
             "kind": "exp-frame-select",
             "frameOptions": [{
@@ -223,7 +203,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
@@ -665,7 +645,6 @@
                             "mp3"
                         ],
                         "videoTypes": [
-                            "webm",
                             "mp4"
                         ],
                         "backgroundColor": "black",
@@ -673,10 +652,11 @@
                         "pauseKey": " ",
                         "pauseKeyDescription": "space",
                         "restartAfterPause": false,
-                        "pauseAudio": "pause_HO",
+                        "pauseAudio": "pause",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
                     }
                 },
                 {
@@ -687,7 +667,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
@@ -1131,7 +1111,6 @@
                             "mp3"
                         ],
                         "videoTypes": [
-                            "webm",
                             "mp4"
                         ],
                         "backgroundColor": "black",
@@ -1139,10 +1118,11 @@
                         "pauseKey": " ",
                         "pauseKeyDescription": "space",
                         "restartAfterPause": false,
-                        "pauseAudio": "pause_HO",
+                        "pauseAudio": "pause",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause",
+                        "waitForRecordingMessageColor": "black"
                     }
                 },
                 {
@@ -1153,7 +1133,7 @@
                             "video": {
                                 "loop": false,
                                 "position": "fill",
-                                "source": "begin"
+                                "source": "begin8mins"
                             },
                             "doRecording": false,
                             "requireAudioCount": 0,
@@ -1754,7 +1734,6 @@
                             "mp3"
                         ],
                         "videoTypes": [
-                            "webm",
                             "mp4"
                         ],
                         "backgroundColor": "black",
@@ -1762,15 +1741,16 @@
                         "pauseKey": " ",
                         "pauseKeyDescription": "space",
                         "restartAfterPause": false,
-                        "pauseAudio": "pause_HO",
+                        "pauseAudio": "pause",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause",
+                        "waitForRecordingMessageColor": "black"
                     }
                 }
             ],
             "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['3-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': [2],  'ELIGIBLE': true } } }"
-        }, 
+        },
         "qualt-link": {
             "blocks": [{
                     "emph": true,
@@ -1792,7 +1772,18 @@
             ],
             "showPreviousButton": false,
             "kind": "exp-lookit-text"
-        }
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                
+                    "text": "If you have completed the survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants distinguish between different languages and how they learn multiple languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. In this study, each child is primed with a song either in English, Cantonese or Mandarin. To assess whether hearing this song activated a language, each child is familiarized with a linguistic sound specific to one of the three languages and then presented with a minimally different linguistic sound. These minimally different sounds can be hard to discriminate from one another. We hypothesize that prior activation of a language will boost infants' perception of minimally different sounds in that language. If infants are able to use contextual information to activate a particular language, this could help to explain the rapid pace of language learning that is observed in young infants. \n\n We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionnaire, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>. Once you have completed this, you are done with the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the five buisness days after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate- again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "title": "Thank you for participating in our study!"
+            }
+            }
+        
+         
+        
     },
         "sequence": [
             "study-intro",
@@ -1800,10 +1791,8 @@
             "video-consent",
             "eligibility-survey",
             "final-instructions",
-            
-            "video-quality",
             "video-preview",
-            
+            "video-quality",
             "study-procedure",
             "qualt-link",
             "exit-survey"
