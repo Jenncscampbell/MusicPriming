@@ -191,7 +191,7 @@
                 }
             ],
             "requireItemConfirmation": true,
-            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. Please ensure you can see your child's eyes in the video. \n\n Once you are ready to begin the study, please click the next button. You will have a moment to turn around before the first trial begins."
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. Please ensure you can see your child's eyes in the video. \n\n Once you are ready to begin the study, please click the next button. You will have a moment to turn around and get into position before the first trial begins."
         },
         "study-procedure": {
             "kind": "exp-frame-select",
