@@ -7,16 +7,13 @@
                     "text": "To be eligible for this study, your child must be hearing:<ul><li> Only English (90-100% of the time)  OR</li> <li> Both English and Cantonese/Mandarin (at least 30% English AND at least 20% Cantonese OR Mandarin) <ul/>"
                 },
                 {
-                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by rainbow dots and we will record where he or she chooses to look."
+                    "text": "This study has two main components: a video that your child will watch and a questionnaire for you. During the video, your baby will first watch singing faces and hear a series of speech sounds accompanied by rainbow dots. We will record where he or she chooses to look. In the questionnaire, you will provide information about your child's language and music experience."
                 },
                 {
                     "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "The video section will take about 10 minutes."
-                },
-                {
-                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
+                    "text": "The video and questionnaire each take approximately 10 minutes to complete."
                 }
             ],
             "showPreviousButton": false,
@@ -71,7 +68,7 @@
                         }, 
                         "email":{
                             "type": "string",
-                            "title": "At the end of the study, we have a detailed questionnaire which is linked to Lookit through your email. Please enter your email address here: ",
+                            "title": "After the video for your baby, we have a questionnaire for you which is linked to Lookit through your email. Please enter your email address here: ",
                             "required": true
                         }
                     }
@@ -146,7 +143,7 @@
                     "text": "<strong> Preview the study </sttrong>"
                 },
                 {
-                    "text": "Durng the study, we ask that parents refrain from watching the screen. The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                    "text": "During the study, we ask that parents refrain from watching the screen. The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
                 },
                 {
                     "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
@@ -1753,17 +1750,17 @@
                     "title": "For this final portion, your child does not need to be with you!"
                 },
                 {
-                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionnaire and then return to Lookit."
+                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment. This questionnaire is important for us to understand how your child's experiences are related to their behaviour during the video. \n\n Please click the link below to complete the questionnaire and then return to Lookit."
                 },
                 {
-                    "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
+                    "text": "Click here: (<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>)"
                 }, 
                 {
                     "text": ""
                 },
                 {
                     "emph": true,
-                    "text": "Please do not close this window. Once you are done the survey, click Next."
+                    "text": "Please do this questionnaire. Do not close this window. Once you are done the questionnaire, click Next."
                 }
             ],
             "showPreviousButton": false,
@@ -1773,7 +1770,7 @@
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 
-                    "text": "If you have completed the survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants distinguish between different languages and how they learn multiple languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. In this study, each child is primed with a song either in English, Cantonese or Mandarin. To assess whether hearing this song activated a language, each child is familiarized with a linguistic sound specific to one of the three languages and then presented with a minimally different linguistic sound. These minimally different sounds can be hard to discriminate from one another. We hypothesize that prior activation of a language will boost infants' perception of minimally different sounds in that language. If infants are able to use contextual information to activate a particular language, this could help to explain the rapid pace of language learning that is observed in young infants. \n\n We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionnaire, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>. Once you have completed this, you are done with the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the five buisness days after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate- again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "text": "\nIf you have completed the questionnaire, then you are all done the study! \n\n You and your baby are helping us to better understand how infants distinguish between different languages and how they learn multiple languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. In this study, each child is primed with a song either in English, Cantonese or Mandarin. To assess whether hearing this song activated a language, each child is familiarized with a linguistic sound specific to one of the three languages and then presented with a minimally different linguistic sound. These minimally different sounds can be hard to discriminate from one another. We hypothesize that prior activation of a language will boost infants' perception of minimally different sounds in that language. If infants are able to use contextual information to activate a particular language, this could help to explain the rapid pace of language learning that is observed in young infants. \n\n We really appreciate your help with this investigation!\n\n  If you have not already filled out the language and music questionnaire, here is the link: <a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionnaire</a>. Once you have completed this, you are done with the study. \n \n To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the five buisness days after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate- again with another child in the age range, you will receive one gift card per child. \n\n We would like to follow up with you when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
                     "title": "Thank you for participating in our study!"
             }
             }
