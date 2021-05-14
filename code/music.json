@@ -1474,31 +1474,12 @@
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Fa_test",
-                            "VIDEOT3": "Fa_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
                             "VIDEOT1": "Fa_test",
                             "VIDEOT2": "Fa_Va_test",
                             "VIDEOT3": "Fa_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
+
                         {
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "EnglishSong",
@@ -1576,16 +1557,6 @@
                             "VIDEO_Fam": "Va_English_Long",
                             "VIDEOT1": "Fa_Va_test",
                             "VIDEOT2": "Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "MandarinSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
-                            "VIDEOT2": "Fa_Va_test",
                             "VIDEOT3": "Va_test",
                             "VIDEOT4": "Va_Fa_test"
                         },
