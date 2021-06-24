@@ -191,7 +191,8 @@
         },
         "study-procedure": {
             "kind": "exp-frame-select",
-            "frameOptions": [{
+            "frameOptions": [
+                {
                     "kind": "choice",
                     "sampler": "random-parameter-set",
                     "frameList": [
@@ -1443,16 +1444,6 @@
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
-                            "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Tsa_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Tsa_test",
@@ -1565,16 +1556,6 @@
                             "VIDEO_Prime": "MandarinSong",
                             "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_Za_test",
-                            "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
-                            "VIDEOT4": "Za_Ca_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "MandarinSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_test",
                             "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
@@ -1638,16 +1619,6 @@
                             "VIDEO_Fam": "Ca_Mandarin_Long",
                             "VIDEOT1": "Ca_Za_test",
                             "VIDEOT2": "Ca_test",
-                            "VIDEOT3": "Ca_test",
-                            "VIDEOT4": "Za_Ca_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Ca_Mandarin_Long",
-                            "VIDEOT1": "Ca_test",
-                            "VIDEOT2": "Ca_Za_test",
                             "VIDEOT3": "Ca_test",
                             "VIDEOT4": "Za_Ca_test"
                         },
