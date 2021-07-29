@@ -1424,16 +1424,6 @@
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "CantoneseSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Dza_test",
@@ -1475,29 +1465,9 @@
                             "VIDEOC": "CalibrationDuck",
                             "VIDEO_Prime": "EnglishSong",
                             "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
                             "VIDEO_Fam": "Dza_Cantonese_Long",
                             "VIDEOT1": "Dza_Tsa_test",
                             "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
-                            "VIDEOT2": "Dza_Tsa_test",
                             "VIDEOT3": "Dza_test",
                             "VIDEOT4": "Tsa_Dza_test"
                         },
